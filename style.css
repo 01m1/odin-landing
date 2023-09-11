@@ -65,7 +65,18 @@ img {
     flex-grow: 5;
 }
 
-button {
+.second {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    width:125px;
+    height:30px;
+    font-weight: bold;
+}
+
+.sfirst {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
@@ -126,4 +137,46 @@ button {
 .name {
     padding-left: 570px;
     font-size: 20px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.action {
+    margin-top: 100px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    width: 1000px;
+    height: 100px;
+    border-radius: 6px;
+}
+.to {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #e5e7eb;
+}
+.sign {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #e5e7eb;
+}
+
+.bottom {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.foot {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #e5e7eb;
 }
